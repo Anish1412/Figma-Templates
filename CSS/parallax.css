@@ -8,7 +8,7 @@
     height: 3318px;
 }
 .p-website {
-    background-size: 1490px;
+    background-size:cover;
     background-image: url("/IMG/image1.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -78,3 +78,410 @@
     margin-top: 170px;
     letter-spacing: 5px;
 }
+
+@media only screen and (min-width:317px) and (max-width:328px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 260px;
+    }
+    .Section-1 {
+        height: 1300px;
+    }
+    .Section-2, .Section-3 {
+        height: 1300px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 200px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width:328px) and (max-width:340px){
+    .p-website {
+        height: 626px;
+    }
+    .p-website > h1 {
+        margin-top: 260px;
+    }
+    .Section-1 {
+        height: 1150px;
+    }
+    .Section-2, .Section-3 {
+        height: 1150px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 200px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width:340px) and (max-width:359px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 1070px;
+    }
+    .Section-2, .Section-3 {
+        height: 1070px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:359px) and (max-width:371px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 1030px;
+    }
+    .Section-2, .Section-3 {
+        height: 1030px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:371px) and (max-width:395px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 980px;
+    }
+    .Section-2, .Section-3 {
+        height: 980px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:395px) and (max-width:434px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 920px;
+    }
+    .Section-2, .Section-3 {
+        height: 920px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:434px) and (max-width:447px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 820px;
+    }
+    .Section-2, .Section-3 {
+        height: 820px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:447px) and (max-width:493px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 770px;
+    }
+    .Section-2, .Section-3 {
+        height: 770px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:493px) and (max-width:530px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 700px;
+    }
+    .Section-2, .Section-3 {
+        height: 700px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:530px) and (max-width:598px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 650px;
+    }
+    .Section-2, .Section-3 {
+        height: 650px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:598px) and (max-width:669px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 590px;
+    }
+    .Section-2, .Section-3 {
+        height: 590px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:669px) and (max-width:783px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 520px;
+    }
+    .Section-2, .Section-3 {
+        height: 520px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:783px) and (max-width:810px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 520px;
+    }
+    .Section-2, .Section-3 {
+        height: 520px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:810px) and (max-width:885px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 490px;
+    }
+    .Section-2, .Section-3 {
+        height: 490px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+@media only screen and (min-width:885px) and (max-width:991px){
+    .p-website {
+        height: 625px;
+    }
+    .p-website > h1 {
+        margin-top: 290px;
+    }
+    .Section-1 {
+        height: 450px;
+    }
+    .Section-2, .Section-3 {
+        height: 450px;
+    }
+    .explore-nature {
+        height: 512px;
+    }
+    .explore-nature > h1 {
+        margin-top: 225px;
+    }
+    .deep-nature {
+        height: 512px;
+    }
+    .deep-nature > h1 {
+        margin-top: 225px;
+    }
+}
+
+
