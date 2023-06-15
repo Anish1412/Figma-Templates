@@ -75,6 +75,8 @@
     font-size: 18px;
     color: rgb(72, 67, 67);
 }
+
+/* Till width:734px don't do anything */
 .personal {
     width: 100%;
     height: 320px;
@@ -86,6 +88,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 15px;
 }
+
 .personal > .contact {
     width: 50%;
     height: 100%;
@@ -93,12 +96,31 @@
     color: white;
     padding: 30px;
 }
+.contact > p:nth-of-type(1){
+    line-height: 25px;
+    font-size: 18px;
+}
+.contact > p:nth-of-type(2){
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 .personal > .about {
     width: 50%;
     height: 100%;
     background-color:rgb(151, 50, 4);
     color: white;
     padding: 30px;
+}
+.about > p:nth-of-type(1){
+    line-height: 25px;
+    font-size: 18px;
+}
+.about > p:nth-of-type(2){
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 20px;
 }
 .footer {
     width: 100%;
@@ -107,4 +129,942 @@
     color: white;
     text-align: center;
     line-height: 70px;
+}
+
+
+@media only screen and (min-width:786px) and (max-width:1083px){
+    .container {
+        width: 100%;
+        height: 1696px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 626px;
+        padding-left: 220px;
+        padding-top: 80px;
+    }
+    .card-content {
+        height: 500px;
+    }
+    .card {
+        width: 300px;
+        border-radius: 10px;
+        height: 400px;
+        margin: 0px 20px 0px 20px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+}
+
+@media only screen and (min-width:922px) and (max-width:1083px) {
+    .card > .card-body {
+        padding: 15px;
+    }
+    .card:hover > .card-body {
+        padding: 28px;
+    }
+    .card {
+        width: 300px;
+        border-radius: 10px;
+        height: 400px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+}
+
+@media only screen and (min-width:893px) and (max-width:926px) {
+    .developer {
+        padding-left: 180px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+    }
+    .card:hover > .card-body {
+        padding: 28px;
+    }
+    .card {
+        width: 300px;
+        border-radius: 10px;
+        height: 390px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+}
+
+@media only screen and (min-width:786px) and (max-width:831px) {
+    .container {
+        width: 100%;
+        height: 1577px;
+    }
+    .developer {
+        padding-left: 180px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 10px;
+    }
+    .work > p {
+        font-size: 40px;
+    }
+    .work span {
+        font-size: 65px;
+    }
+    .card-content {
+        height: 430px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 13px;
+    }
+    .card > .card-body > p {
+        font-size: 13px;
+    }
+    .card {
+        width: 300px;
+        border-radius: 10px;
+        height: 330px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(3){
+        width: 300px;
+        border-radius: 10px;
+        height: 330px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:771px) and (max-width:786px){
+    .container {
+        width: 100%;
+        height: 1348px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 160px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 10px;
+    }
+    .work > p {
+        font-size: 40px;
+    }
+    .work span {
+        font-size: 65px;
+    }
+    .card-content {
+        height: 420px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 13px;
+    }
+    .card > .card-body > p {
+        font-size: 13px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:755px) and (max-width:771px){
+    .container {
+        width: 100%;
+        height: 1348px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 160px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 10px;
+    }
+    .work > p {
+        font-size: 40px;
+    }
+    .work span {
+        font-size: 65px;
+    }
+    .card-content {
+        height: 420px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 13px;
+    }
+    .card:hover > .card-body {
+        padding: 15px 20px 0px 20px;
+    }
+    .card > .card-body > p {
+        font-size: 13px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:hover {
+        width: 200px;
+        height:320px;
+        box-shadow: 0px 7px 26px 3px rgba(0, 0, 0, 0.271);
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:715px) and (max-width:755px){
+    .container {
+        width: 100%;
+        height: 1348px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 160px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 10px;
+    }
+    .work > p {
+        font-size: 40px;
+    }
+    .work span {
+        font-size: 65px;
+    }
+    .card-content {
+        height: 420px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 13px;
+    }
+    .card > .card-body > p {
+        font-size: 13px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(2){
+        margin: 0px 20px 0px 20px;
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 13px;
+    }
+    .personal h1 {
+        font-size: 50px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:681px) and (max-width:715px){
+    .container {
+        width: 100%;
+        height: 1348px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 160px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 10px;
+    }
+    .work > p {
+        font-size: 40px;
+    }
+    .work span {
+        font-size: 65px;
+    }
+    .card-content {
+        height: 420px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .card > .card-body > p {
+        font-size: 13px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(2){
+        margin: 0px 20px 0px 20px;
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(1) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .personal h1 {
+        font-size: 50px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+    }
+    .about > p:nth-of-type(2){
+        line-height: 19px;
+        font-size: 18px;
+        margin-top: 18px;
+    }
+}
+
+@media only screen and (min-width:598px) and (max-width:681px){
+    .container {
+        width: 100%;
+        height: 1348px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 160px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 10px;
+    }
+    .work > p {
+        font-size: 40px;
+    }
+    .work span {
+        font-size: 65px;
+    }
+    .card-content {
+        height: 420px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 15px;
+    }
+    .card:nth-of-type(1)  > .card-body > h2{
+        font-size: 17px;
+    }
+    .card:nth-of-type(2)  > .card-body > h2{
+        font-size: 17px;
+    }
+    .card:nth-of-type(3)  > .card-body > h2{
+        font-size: 17px;
+    }
+    .card > .card-body > p {
+        font-size: 11px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:hover {
+        width: 200px;
+        height:320px;
+    }
+    .card:hover > .card-body {
+        padding: 15px 20px 0px 20px;
+    }
+    .card:nth-of-type(2){
+        margin: 0px 20px 0px 20px;
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 320px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(1) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .personal h1 {
+        font-size: 45px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+    }
+    .about > p:nth-of-type(2){
+        line-height: 20px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:560px) and (max-width:598px){
+    .container {
+        width: 100%;
+        height: 1310px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 90px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 30px;
+    }
+    .work > p {
+        font-size: 30px;
+    }
+    .work span {
+        font-size: 45px;
+    }
+    .card-content {
+        height: 380px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 15px;
+    }
+    .card:nth-of-type(1)  > .card-body > h2{
+        font-size: 14px;
+    }
+    .card:nth-of-type(2)  > .card-body > h2{
+        font-size: 14px;
+    }
+    .card:nth-of-type(3)  > .card-body > h2{
+        font-size: 14px;
+    }
+    .card > .card-body > p {
+        font-size: 9px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 280px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:hover {
+        width: 200px;
+        height:280px;
+    }
+    .card:hover > .card-body {
+        padding: 15px 20px 0px 20px;
+    }
+    .card:nth-of-type(2){
+        margin: 0px 20px 0px 20px;
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 280px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(1) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .personal h1 {
+        font-size: 40px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+    }
+    .about > p:nth-of-type(2){
+        line-height: 20px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:527px) and (max-width:560px){
+    .container {
+        width: 100%;
+        height: 1310px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 90px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 30px;
+    }
+    .work > p {
+        font-size: 30px;
+    }
+    .work span {
+        font-size: 45px;
+    }
+    .card-content {
+        height: 380px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 15px;
+    }
+    .card:nth-of-type(1)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card:nth-of-type(2)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card:nth-of-type(3)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card > .card-body > p {
+        font-size: 8px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 280px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:hover {
+        width: 200px;
+        height:280px;
+    }
+    .card:hover > .card-body {
+        padding: 15px 20px 0px 20px;
+    }
+    .card:nth-of-type(2){
+        margin: 0px 20px 0px 20px;
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 280px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(1) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .personal h1 {
+        font-size: 30px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+    }
+    .about > p:nth-of-type(2){
+        line-height: 20px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width:484px) and (max-width:527px){
+    .container {
+        width: 100%;
+        height: 1270px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 90px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 30px;
+    }
+    .work > p {
+        font-size: 30px;
+    }
+    .work span {
+        font-size: 45px;
+    }
+    .card-content {
+        height: 340px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 15px;
+    }
+    .card:nth-of-type(1)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card:nth-of-type(2)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card:nth-of-type(3)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card > .card-body > p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 240px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:hover {
+        width: 200px;
+        height:240px;
+    }
+    .card:hover > .card-body {
+        padding: 15px 20px 0px 20px;
+    }
+    .card:nth-of-type(2){
+        margin: 0px 20px 0px 20px;
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 240px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(1) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .personal h1 {
+        font-size: 30px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+    }
+    .about > p:nth-of-type(2){
+        line-height: 20px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width:470px) and (max-width:484px){
+    .container {
+        width: 100%;
+        height: 1265px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 90px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 30px;
+    }
+    .work > p {
+        font-size: 30px;
+    }
+    .work span {
+        font-size: 45px;
+    }
+    .card-content {
+        height: 340px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 15px;
+    }
+    .card:nth-of-type(1)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card:nth-of-type(2)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card:nth-of-type(3)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card > .card-body > p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 240px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:hover {
+        width: 200px;
+        height:240px;
+    }
+    .card:hover > .card-body {
+        padding: 15px 20px 0px 20px;
+    }
+    .card:nth-of-type(2){
+        margin: 0px 20px 0px 20px;
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 240px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(1) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .personal h1 {
+        font-size: 25px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+    }
+    .personal > .contact {
+        padding: 20px;
+    }
+    .contact > p:nth-of-type(2){
+        line-height: 25px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .about > p:nth-of-type(1){
+        line-height: 20px;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .about > p:nth-of-type(2){
+        line-height: 20px;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width:458px) and (max-width:470px){
+    .container {
+        width: 100%;
+        height: 1265px;
+    }
+    .developer {
+        background-image: url('/IMG/developer.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 416px;
+        padding-left: 90px;
+        padding-top: 50px;
+    }
+    .developer > h1 {
+        font-size: 40px;
+    }
+    .work {
+        height: 120px;
+        padding-top: 30px;
+    }
+    .work > p {
+        font-size: 30px;
+    }
+    .work span {
+        font-size: 45px;
+    }
+    .card-content {
+        height: 340px;
+    }
+    .card > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 15px;
+    }
+    .card:nth-of-type(1)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card:nth-of-type(2)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card:nth-of-type(3)  > .card-body > h2{
+        font-size: 12px;
+    }
+    .card > .card-body > p {
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .card {
+        width: 200px;
+        border-radius: 10px;
+        height: 240px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:hover {
+        width: 200px;
+        height:240px;
+    }
+    .card:hover > .card-body {
+        padding: 15px 20px 0px 20px;
+    }
+    .card:nth-of-type(2){
+        margin: 0px 20px 0px 20px;
+    }
+    .card:nth-of-type(3){
+        width: 200px;
+        border-radius: 10px;
+        height: 240px;
+        transition-duration: 0.5s;
+        box-shadow: 0px 7px 21px 2px rgba(0, 0, 0, 0.172);
+    }
+    .card:nth-of-type(1) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .card:nth-of-type(3) > .card-body {
+        padding: 15px 20px 0px 20px;
+        font-size: 12px;
+    }
+    .personal h1 {
+        font-size: 25px;
+        font-weight: 400;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-bottom: 15px;
+    }
+    .personal > .contact {
+        padding: 20px 25px 20px 20px;
+    }
+    .contact > p:nth-of-type(2){
+        line-height: 25px;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    .about > p:nth-of-type(1){
+        line-height: 20px;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .about > p:nth-of-type(2){
+        line-height: 20px;
+        font-size: 17px;
+        margin-top: 10px;
+    }
 }
