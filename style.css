@@ -140,7 +140,7 @@ body {
 .sky{
     height: 100vh; /* increase height to 200vh so that footer stick to the bottom */
     color: white;
-    background-image: url("/IMG/video.png");
+    background-image: url("video.png");
     background-repeat: no-repeat;
     background-position: bottom 0px left 0px;
     background-size: 1250px;
@@ -384,7 +384,7 @@ padding: 18px;
     .sky{
         height: 125vh; /* increase height to 200vh so that footer stick to the bottom */
         color: white;
-        background-image: url("/IMG/video.png");
+        background-image: url("video.png");
         background-repeat: no-repeat;
         background-position: bottom 0px left 0px;
         background-size: 3000px;
@@ -633,7 +633,7 @@ padding: 18px;
     .sky{
         height: 100vh; /* increase height to 200vh so that footer stick to the bottom */
         color: white;
-        background-image: url("/IMG/video.png");
+        background-image: url("video.png");
         background-repeat: no-repeat;
         background-position: bottom 0px left 0px;
         background-size: 1050px;
@@ -883,7 +883,7 @@ padding: 18px;
     .sky{
         height: 83vh; /* increase height to 200vh so that footer stick to the bottom */
         color: white;
-        background-image: url("/IMG/video.png");
+        background-image: url("video.png");
         background-repeat: no-repeat;
         background-position: bottom 0px left 0px;
         background-size: 1150px;
@@ -1136,7 +1136,7 @@ padding: 18px;
     .sky{
         height: 110vh; /* increase height to 200vh so that footer stick to the bottom */
         color: white;
-        background-image: url("/IMG/video.png");
+        background-image: url("video.png");
         background-repeat: no-repeat;
         background-position: bottom 0px left 0px;
         text-align: center;
@@ -1384,7 +1384,7 @@ padding: 18px;
     .sky{
         height: 80vh; /* increase height to 200vh so that footer stick to the bottom */
         color: white;
-        background-image: url("/IMG/video.png");
+        background-image: url("video.png");
         background-repeat: no-repeat;
         background-position: bottom 0px left 0px;
         text-align: center;
