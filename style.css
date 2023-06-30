@@ -1,125 +1,71 @@
 * {
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-.container{
-  width: 100%;
-  height: 1800px;
-  display: flex;
+html, body {
+    scroll-behavior: smooth;
+}
+.container {
+    width: 100%;
+    height: 1650px;
+    display: flex;
 }
 .sidebar {
-  width: 100px;
-  height: 100%;
-  padding: 20px 30px 30px 30px;
+    width: 18%;
+    height: 100%;
+    border: 1px solid lightgray;
+    color: black;
+    position: fixed;
 }
-.sidebar > img {
-  width: 32px;
-  height: 52px;
-  margin-top: 8px;
+.sidebar > .js {
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
 }
-.sidebar > small {
-  position: relative;
-  top:-15px;
-  left:0px;
+.sidebar p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 35px;
 }
-.sidebar > .sub {
-  left:-15px;
+.sidebar a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
 }
-.header {
-  width: 100%;
-  height: 140px;
+a:hover {
+    background-color: lightgray;
 }
-.header > .navbar1 {
-  width: 100%;
-  height: 80px;
-  border-bottom: 1px solid lightgrey;
-  padding: 15px;
+.sub-container {
+    width: 82%;
+    padding: 40px 60px 60px 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 260px;
 }
-.header > .navbar1 > input {
-  width: 550px;
-  height: 40px;
-  border: 1px solid lightgrey;
-  outline:none;
-  padding: 25px;
-  margin-left: 100px;
-  float: left;
+.sub-container > #introduction,#Wysak { 
+    width: 1100px;
+    height: 290px;
 }
-.header > .navbar1 > .search {
-  background-color: rgba(211, 211, 211, 0.614);
-  padding: 11.5px;
+#introduction > h1,#Wysak > h1,#JsJava > h1,#Hw > h1,#Var > h1 {
+    border-bottom: 1px solid lightgray;
 }
-.header > .navbar1 > .mic {
-  height:60px; 
-  width:65px; 
-  padding: 15px; 
-  background-color:rgba(211, 211, 211, 0.614); 
-  border-radius: 50%;
-  margin-right: 350px; 
-  margin-top: -5px; 
-  float: right;
+#introduction > .info, #Wysak > .info, #JsJava > .info, #Hw > .info, #Var > .info { 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 15px 15px 15px;
+    font-style:oblique;
 }
-.header > .navbar1 > .nav-icons {
-  float: right; 
-  margin-top: -50px; 
-  margin-right: 200px; 
-  height: 35px; 
-  width: 35px;
+.sub-container .code {
+    background-color: lightgray; 
+    height: 100px; 
+    width: 100%; 
+    padding: 20px; 
+    font-size: 18px; 
+    line-height: 25px; 
+    margin-top: 20px;
 }
-.header > .navbar2 {
-  padding: 20px;
-}
-.header > .navbar2 > button {
-  border-radius: 50px;
-  font-size: 14px;
-  padding: 10px 20px 10px 20px;
-  border: 1px solid black;
-  outline: none;
-  margin: -13px 0px 0px 15px;
-}
-.videos-section {
-  width: 100%;
-  height: 100%;
-  background-color: #f4f4f4;
-  padding-top: 12px;
-}
-.videos-section > .rows {
-  display: flex;
-}
-.videos-section .card {
-  width: 302px;
-  height: 300px;
-}
-.videos-section .card > img {
-  width: 300px;
-}
-.videos-section .card > .video-info {
-  display: flex;
-}
-.videos-section .icon {
-  width: 60px; 
-  height: 119px; 
-  padding: 5px;
-}
-.videos-section .title { 
-  width: 222px; 
-  height: 119px; 
-  font-family: sans-serif;
-}
-.videos-section .title > h5 {
-  font-size: 20px;
-  line-height: 28px;
-}
-.videos-section .title > h6 {
-  font-size: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-.videos-section .title > small {
-  font-size: 14px;
-}
-.videos-section .option {
-  width: 18px; 
-  height: 119px; 
-  margin-left: -5px;
+ul {
+    list-style-position: inside;
+    margin-top: 25px;
 }
